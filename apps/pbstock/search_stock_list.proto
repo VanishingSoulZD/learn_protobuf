@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package pbstock;
+option go_package = ".;pbstock";
+
+message SearchStockListRequest {
+  int64 pageno = 1;
+  int64 count = 2;
+}
+
+message SearchStockListResponse {
+  int64 total = 1;
+  int64 pageno = 2;
+  int64 count = 3;
+    SearchStockDetail list = 4;
+}
+
+message SearchStockDetail {
+  int64 id = 1;
+  string stock_code = 2;
+  string stock_name = 3;
+  float price = 4;
+}

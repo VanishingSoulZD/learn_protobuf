@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package pbstock;
+option go_package = ".;pbstock";
+
+message UpdateStockRequest {
+  // ID
+  int64 id = 1;
+  // Stock Code
+  string stock_code = 2;
+  // Stock Name
+  string stock_name = 3;
+  // Price
+  float price = 4;
+}
+
+message UpdateStockResponse {
+
+}
