@@ -18,8 +18,8 @@ message SearchStockPlanListResponse {
 message SearchStockPlanDetail {
   string stock_code = 1;
   string fall_percent = 2;
-  float buy_price = 3;
+  double buy_price = 3;
   int64 buy_quantity = 4;
   string profit_percent = 5;
-  float sell_price = 6;
+  double sell_price = 6;
 }

@@ -11,7 +11,7 @@ message UpdateStockRequest {
   // Stock Name
   string stock_name = 3;
   // Price
-  float price = 4;
+  double price = 4;
 }
 
 message UpdateStockResponse {

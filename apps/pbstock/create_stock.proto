@@ -9,7 +9,7 @@ message CreateStockRequest {
   // Stock Name
   string stock_name = 2;
   // Price
-  float price = 3;
+  double price = 3;
   // Stock Type, Enum: StockType
   int64 stock_type = 4;
 }
