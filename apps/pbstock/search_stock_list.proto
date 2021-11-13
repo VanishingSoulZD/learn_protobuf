@@ -12,7 +12,7 @@ message SearchStockListResponse {
   int64 total = 1;
   int64 pageno = 2;
   int64 count = 3;
-    SearchStockDetail list = 4;
+  repeated SearchStockDetail list = 4;
 }
 
 message SearchStockDetail {
