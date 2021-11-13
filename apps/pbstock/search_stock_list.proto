@@ -20,4 +20,6 @@ message SearchStockDetail {
   string stock_code = 2;
   string stock_name = 3;
   float price = 4;
+  // Stock Type, Enum: StockType
+  int64 stock_type = 5;
 }
