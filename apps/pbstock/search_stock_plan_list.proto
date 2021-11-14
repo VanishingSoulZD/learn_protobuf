@@ -24,4 +24,6 @@ message SearchStockPlanDetail {
   int64 buy_quantity = 4;
   string profit_percent = 5;
   double sell_price = 6;
+  int64 plan_money = 7;
+  double actual_money = 8;
 }
