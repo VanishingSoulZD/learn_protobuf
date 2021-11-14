@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package pbstock;
+option go_package = ".;pbstock";
+
+message CreateStockRequest {
+  // Stock Code
+  string stock_code = 1;
+  // Stock Name
+  string stock_name = 2;
+  // Price
+  double price = 3;
+  // Stock Type, Enum: StockType
+  int64 stock_type = 4;
+}
+
+message CreateStockResponse {
+
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package pbstock;
+option go_package = ".;pbstock";
+
+message DeleteStockRequest {
+  int64 id = 1;
+}
+
+message DeleteStockResponse {
+
+}
