@@ -20,12 +20,12 @@ message SearchStockPlanListResponse {
 message SearchStockPlanDetail {
   string stock_code = 1;
   string fall_percent = 2;
-  double buy_price = 3;
+  string buy_price = 3;
   int64 buy_quantity = 4;
   string profit_percent = 5;
-  double sell_price = 6;
+  string sell_price = 6;
   int64 plan_money = 7;
-  double actual_money = 8;
+  string actual_money = 8;
   int64 quick_buy_qty = 9;
-  double quick_sell_price = 10;
+  string quick_sell_price = 10;
 }

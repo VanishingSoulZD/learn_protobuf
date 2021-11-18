@@ -12,6 +12,8 @@ message UpdateStockRequest {
   string stock_name = 3;
   // Price
   double price = 4;
+  // One Hand
+  int64 one_hand = 5;
 }
 
 message UpdateStockResponse {

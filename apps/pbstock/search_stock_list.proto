@@ -22,4 +22,5 @@ message SearchStockDetail {
   double price = 4;
   // Stock Type, Enum: StockType
   string stock_type = 5;
+  int64 one_hand = 6;
 }
