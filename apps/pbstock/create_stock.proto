@@ -12,8 +12,11 @@ message CreateStockRequest {
   double price = 3;
   // Stock Type, Enum: StockType
   int64 stock_type = 4;
+  // One Hand
+  int64 one_hand = 5;
 }
 
 message CreateStockResponse {
-
+  // ID of stock_tab
+  int64 id = 1;
 }

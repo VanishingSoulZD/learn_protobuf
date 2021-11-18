@@ -26,4 +26,6 @@ message SearchStockPlanDetail {
   double sell_price = 6;
   int64 plan_money = 7;
   double actual_money = 8;
+  int64 quick_buy_qty = 9;
+  double quick_sell_price = 10;
 }
