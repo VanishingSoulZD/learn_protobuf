@@ -14,6 +14,8 @@ message UpdateStockRequest {
   double price = 4;
   // One Hand
   int64 one_hand = 5;
+  // Stragety Type
+  int64 stragety_type = 6;
 }
 
 message UpdateStockResponse {
