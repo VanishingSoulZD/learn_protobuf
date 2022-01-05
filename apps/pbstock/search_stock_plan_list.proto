@@ -10,6 +10,7 @@ message SearchStockPlanListRequest {
   string stock_code = 3;
   // Strategy Type
   int64 strategy_type = 4;
+  repeated string stock_code_list = 5;
 }
 
 message SearchStockPlanListResponse {
